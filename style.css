@@ -1,0 +1,67 @@
+@font-face{
+  font-family:Venn;
+  src:url(https://www.axis-praxis.org/fonts/webfonts/VennVF.woff2);
+  font-weight:1 999;
+  font-stretch:1% 999%;
+}
+
+@keyframes ZakAnim{
+  0%{
+    color:red;
+ left:0px;
+  }
+  100%{
+    color:green;
+    left:1000px;
+    
+  }
+
+  
+  
+}
+
+@keyframes Zakanim1{
+  0%{
+    font-weight:300;
+    font-stretch:75%;
+    
+  }
+  100%{
+    font-weight:800;
+    font-stretch:125%;
+    
+    
+    
+    
+  }
+  
+}
+
+body {
+  color:rgba(200,255,99,1);
+  background-color:#d02;
+  font-family:Venn;
+  font-size: 22px;
+  
+   }
+
+h2 {
+  color:green;
+  animation:ZakAnim 1s infinite alternate linear;
+  position:relative;
+
+}
+
+p {
+  color:#ff0;
+  background-color:#111;
+  width:400px;
+}
+
+h1 {
+  text-align:center;
+  border:solid black 10px;
+  font-weight:750;
+  font-stretch:75%;
+  animation: Zakanim1 2s infinite alternate
+}
